@@ -21,7 +21,7 @@ export default function Signup() {
 
     // TODO: replace with real registration call
     // Simulate successful registration:
-    router.replace("/(home)/index");
+    router.replace("/(home)");
   };
 
   return (

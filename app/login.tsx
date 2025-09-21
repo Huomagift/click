@@ -15,7 +15,7 @@ export default function Login() {
 
     // TODO: replace with real auth call
     // Simulate successful login:
-    router.replace("/(home)/index");
+    router.replace("/(home)");
   };
 
   return (
