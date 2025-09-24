@@ -9,7 +9,7 @@ export default function Landing() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Click</Text>
-      <Text style={styles.subtitle}>Share from a far...</Text>
+      <Text style={styles.subtitle}>All about engagements...</Text>
 
       <TouchableOpacity style={styles.primaryButton} onPress={() => router.push("/login")}>
         <Text style={styles.primaryButtonText}>Login</Text>

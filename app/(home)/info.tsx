@@ -51,8 +51,6 @@ export default function Notifications() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Notifications</Text>
-
       <FlatList
         data={notifications}
         keyExtractor={(item) => item.id}
@@ -79,7 +77,7 @@ export default function Notifications() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#D8C9AE",
     padding: 20,
   },
   title: {

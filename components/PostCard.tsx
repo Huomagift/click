@@ -52,19 +52,19 @@ export default function PostCard({ post }: PostProps) {
 
       <View style={styles.actions}>
         <TouchableOpacity style={styles.button} onPress={handleLike}>
-          <SimpleLineIcons name="like" size={17} color="white" />
+          <SimpleLineIcons name="like" size={15} color="red" />
           <Text style={{ color: "white" }}>{likes}</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.button} onPress={() => setShowComments(true)}>
-          <FontAwesome6 name="commenting" size={17} color="white" />
+          <FontAwesome6 name="commenting" size={15} color="blue" />
           <Text style={{ color: "white", marginLeft: 6 }}>
             {comments.length}
           </Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.button} onPress={() => setShowRepostModal(true)}>
-          <FontAwesome6 name="share" size={17} color="white" />
+          <FontAwesome6 name="share" size={15} color="green" />
           <Text style={{ color: "white", marginLeft: 6 }}>{shares}</Text>
         </TouchableOpacity>
       </View>

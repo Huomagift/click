@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 24,
     justifyContent: "center",
-    backgroundColor: "#fff"
+    backgroundColor: "#D8C9AE"
   },
   title: {
     fontSize: 28,
@@ -19,17 +19,17 @@ const styles = StyleSheet.create({
     padding: 12,
     width: "50%",
     alignSelf: "center",
-    borderRadius: 8,
+    borderRadius: 15,
     marginBottom: 12,
   },
   button: {
-    backgroundColor: "#000",
+    backgroundColor: "#575757",
     paddingVertical: 14,
-    borderRadius: 8,
-    width: "50%",
+    borderRadius: 50,
+    width: "27%",
     alignSelf: "center",
     alignItems: "center",
-    marginTop: 8,
+    marginTop: 15,
   },
   buttonText: {
     color: "#fff",

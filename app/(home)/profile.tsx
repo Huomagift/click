@@ -1,3 +1,4 @@
+import { router } from "expo-router";
 import React from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from "react-native";
 
@@ -13,6 +14,12 @@ export default function Profile() {
       following: 88,
     },
   };
+
+  const handleLogout = () => {
+    // replace with real logout logic later
+    console.log("User logged out");
+    router.replace ("/");
+    };
 
   return (
     <ScrollView style={styles.container}>
@@ -48,7 +55,7 @@ export default function Profile() {
         <TouchableOpacity style={[styles.button, styles.outlineButton]}>
           <Text style={styles.outlineText}>Settings</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={[styles.button, styles.logoutButton]}>
+        <TouchableOpacity style={[styles.button, styles.logoutButton]} onPress={handleLogout}>
           <Text style={styles.logoutText}>Logout</Text>
         </TouchableOpacity>
       </View>
@@ -59,7 +66,7 @@ export default function Profile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#D8C9AE",
     padding: 20,
   },
   header: {

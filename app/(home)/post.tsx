@@ -48,17 +48,17 @@ export default function AddPost() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#D8C9AE",
     padding: 20,
   },
   title: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: "bold",
     marginBottom: 20,
   },
   input: {
     height: 150,
-    borderColor: "#ccc",
+    borderColor: "#fff",
     borderWidth: 1,
     borderRadius: 8,
     padding: 12,
