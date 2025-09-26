@@ -8,8 +8,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build": "expo export --platform web",
-    "vercel-build": "expo export --platform web --output-dir dist",
+    "build": "npx expo export --platform web --clear",
+    "vercel-build": "npx expo export --platform web --clear",
+    "preview:web": "npx serve dist --single",
     "lint": "expo lint"
   },
   "dependencies": {
@@ -46,7 +47,11 @@
     "@types/react": "~19.1.0",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "private": true
 }
