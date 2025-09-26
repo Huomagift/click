@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+# 📸 Click  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Click** is a simple social media platform built around **viewing and engaging with posts**.  
+It’s not a place for endless chatting or distractions — just a space where you can:  
 
-## Get started
+- **View posts**  
+- **Like posts**  
+- **Comment on posts**  
+- **Repost (share) posts**  
+- **Add your own posts**  
+- **Get notifications** about engagement  
 
-1. Install dependencies
+That’s it. Clean, minimal, and user-first.  
 
+---
+
+## 🚀 Why Click?  
+
+Most social media platforms try to be everything at once — messaging, shopping, livestreaming, and more.  
+**Click strips away the noise and focuses only on the essentials**: engaging with posts.  
+
+👉 Think of it as a place to **scroll, react, and share content without distraction.**  
+
+---
+
+## ✨ Core Features (MVP)  
+
+- **Post Feed** – Browse through posts in a distraction-free timeline.  
+- **Like** – React instantly with a tap.  
+- **Comment** – Add your thoughts to a post.  
+- **Repost (Share)** – Amplify posts you enjoy.  
+- **Add Post** – Share your own content with the feed.  
+- **Notifications** – Stay updated on likes, comments, and reposts.  
+
+---
+
+## ⚙️ Tech Stack  
+
+- **React Native** – Core framework for building the app.  
+- **Expo + NativeWind** – Styling and component management.  
+- **GraphQL** – For fetching and displaying posts.  
+
+> 📝 Note: No backend was used for this MVP.  
+
+---
+
+## 📱 Usage Flow  
+
+1. **Landing Page** – Welcome screen introducing the app.  
+2. **Sign Up / Log In** – Create an account or log in.  
+3. **Home Feed** – Scroll through posts and engage (like, comment, repost).  
+4. **Profile** – View your activity and shared posts.  
+5. **Notifications** – See who engaged with your content.  
+6. **Add Post** – Create and share your own posts.  
+7. **Logout** – Exit securely from the app.  
+
+---
+
+## 🛠️ Getting Started  
+
+Follow these steps to run **Click** locally:  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/click.git
+   cd click
+2. **Install dependencies**
    ```bash
    npm install
-   ```
 
-2. Start the app
-
+3. **Start the development server**
    ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+Open the project on Expo Go (iOS/Android) or run on an emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 👩‍💻 Contribution Guidelines
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+We welcome contributions! Here’s how you can help:
 
-## Get a fresh project
+1. Fork the repository.
+   
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   
+3. Commit your changes:
+   ```bash
+   git commit -m "Add: short description of your feature"
+   
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
 
-When you're ready, run:
+5. Submit a Pull Request for review.
 
-```bash
-npm run reset-project
-```
+## 📌 Vision
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Click is built to bring back the simplicity of early social media — a space to share and engage with content without endless features. Future versions may expand based on feedback, but the core will always remain simple and engagement-focused.
 
-## Learn more
+## 🐛 Known Issues
 
-To learn more about developing your project with Expo, look at the following resources:
+- Limited offline support (requires internet to fetch posts).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Notifications may not update in real time.
 
-## Join the community
+- No backend storage — posts reset if the app is restarted.
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- MVP design — some screens may look minimal until further improvements.
